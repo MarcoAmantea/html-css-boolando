@@ -1,3 +1,5 @@
+/*start rules*/
+
 *{
     padding: 0;
     margin: 0;
@@ -13,6 +15,37 @@ img{
     max-width: 100%;
 }
 
+/*Inizio Header*/
+
+header{
+    background-color: hsl(24.71deg 100% 50%);
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+.navbar{
+    padding: 20px;
+    width: 100%;
+    background-color:hsl(24.71deg 100% 50%) ;
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+li{
+    margin-right: 10px;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.icons{
+    
+}
+
 /*inizio cards*/
 
 .row{
@@ -20,13 +53,14 @@ img{
     flex-wrap: wrap;
     row-gap: 10px;
     justify-content: space-between;
+    padding: 120px 0;
 }
 .col{
     width: calc(95%/3);
     min-height: 500px;
 }
 .mg-top{
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .card{
     position: relative;
