@@ -1,71 +1,80 @@
 /*start rules*/
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.container{
+
+.container {
     margin: 0 auto;
     width: 80%;
     max-width: 1100px;
 }
-img{
+
+img {
     max-width: 100%;
 }
 
 /*Inizio Header*/
 
-header{
+header {
     background-color: hsl(24.71deg 100% 50%);
     position: fixed;
     width: 100%;
     z-index: 999;
-}
-.navbar{
     padding: 20px;
+}
+
+.navbar {
     width: 100%;
-    background-color:hsl(24.71deg 100% 50%) ;
+    background-color: hsl(24.71deg 100% 50%);
     display: flex;
     justify-content: space-between;
 }
-ul{
+
+ul {
     list-style: none;
     display: flex;
 }
-li{
+
+li {
     margin-right: 10px;
     color: white;
 }
-a{
+
+a {
     text-decoration: none;
     color: inherit;
 }
-.icons{
-    
-}
+
+.icons {}
 
 /*inizio cards*/
 
-.row{
+.row {
     display: flex;
     flex-wrap: wrap;
     row-gap: 10px;
     justify-content: space-between;
     padding: 120px 0;
 }
-.col{
+
+.col {
     width: calc(95%/3);
     min-height: 500px;
 }
-.mg-top{
+
+.mg-top {
     margin-top: 20px;
 }
-.card{
+
+.card {
     position: relative;
 }
-.like{
+
+.like {
     background-color: white;
     padding: 5px 10px;
     position: absolute;
@@ -73,10 +82,12 @@ a{
     margin-top: 10px;
     font-size: 30px;
 }
-.like:hover{
+
+.like:hover {
     color: red;
 }
-.discount{
+
+.discount {
     background-color: red;
     position: absolute;
     left: 0;
@@ -84,7 +95,8 @@ a{
     padding: 5px;
     color: white;
 }
-.sustainability{
+
+.sustainability {
     background-color: green;
     position: absolute;
     left: 50px;
@@ -92,29 +104,46 @@ a{
     padding: 5px;
     color: white;
 }
-.front{
+
+.front {
     position: absolute;
     left: 0;
     top: 0;
     width: 100%;
 }
-.front:hover{
+
+.front:hover {
     z-index: -1;
 }
-h1{
+
+h1 {
     font-size: 15px;
 }
-.price{
+
+.price {
     color: red;
 }
-.no-price{
+
+.no-price {
     text-decoration: line-through;
 }
-.sustainability-2{
+
+.sustainability-2 {
     background-color: green;
     position: absolute;
     left: 0px;
     bottom: 30px;
     padding: 5px;
     color: white;
+}
+
+footer {
+    background-color: hsl(0deg 0% 10.2%);
+    padding: 30px;
+
+}
+
+.section-footer {
+    display: flex;
+    justify-content: space-between;
 }
